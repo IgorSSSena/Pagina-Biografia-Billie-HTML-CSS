@@ -1,0 +1,144 @@
+html{
+	font-family:Helvetica;
+	background-color:rgb(25, 25, 26);
+}
+
+.container{
+	max-width: 1200px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin:50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px black;
+	background-color: rgb(66, 66, 70);
+}
+
+.destaque{
+	font-weight: bold;
+	opacity: 100%;
+	color: #f1e8b4;
+}
+
+/* Cabeçalho */
+
+.cabecalho{
+	text-align: center;
+	-webkit-text-stroke-width: 1px ;
+	-webkit-text-stroke-color: #000;
+	padding-top: 1%;
+	background-color: rgba(205, 134, 63, 0.274);
+	box-shadow: 2px 20px 8px rgba(205,133,63, 0.274);
+	border-radius: 10px 10px 0 0 ;
+	
+}
+
+.titulo-principal{
+	padding: 0;
+	margin: 0;
+	font-size: 50px;
+	font-style: italic;
+	color: #f1e8b4;
+}
+
+
+/* Corpo do site */
+
+.img-destaque {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	
+}
+.img-destaque figcaption{
+	color: #FFF;
+	opacity: 50%;
+	padding: 5px;
+	
+}
+.img-Tamanho{
+	border-radius: 25px;
+	max-width: 1200px;
+	max-height: 800px;
+	box-shadow: 5px 5px 15px black;
+}
+
+/* Container Biografia */
+
+.biografia-container{
+	padding: 25px 25px;
+	margin: 25px 0;
+	
+}
+.biografia-container h2{
+	color: #f1e8b4;
+	font-size: 30px;
+}
+.biografia-container p{
+	color: #ffffff;
+	opacity: 50%;
+	font-size: 16px;
+}
+.biografia-container a{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+}
+/* Citações */
+
+.frase-musica{
+	background-color: rgba(205, 134, 63, 0.274);
+	padding: 30px;
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	text-align: center;
+	-webkit-text-stroke-width: 1px ;
+	-webkit-text-stroke-color: #000;
+}
+.frase-musica blockquote{
+	font-weight: bold;
+	font-size: 40px;
+	color: #f1e8b4;
+	
+}
+
+.frases-container p{
+	font-style: italic;
+}
+
+/* Imagem Sozinha */
+.img-Background{
+	background-image: url("../img/billie2.jpg");
+	height: 400px;
+	width: 100%;
+	border-radius: 20px;
+	align-items: center;
+}
+
+
+/* Curiosidades */
+
+.curiosidades-container{
+	padding:  25px 0;
+	margin:  25px 0;
+	font-size: 16px;
+}
+
+
+.curiosidades-container h2{
+	
+	margin:  0 0 0 22px;
+	color: #f1e8b4;
+	font-size: 30px;
+
+}
+
+
+.curiosidades-container li{
+	height: fit-content;
+	padding: 10px;
+	color: #ffffff;
+	opacity: 50%;
+	font-size: 16px;
+}
